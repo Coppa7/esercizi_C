@@ -5,6 +5,8 @@ Shrink.c : Partendo da una generica stringa, alloca una nuova stringa che contie
 
 shrink_lista.c : non del tutto simile a shrink.c; qui la funzione shrink alloca una nuova stringa basandosi su una mask (una stringa di 0 e 1), cioè considerando solo i caratteri corrispondenti agli 1. Dopodichè, data una lista di stringhe, ognuna viene sostituita con la propria versione "ridotta", tranne se quest'ultima inizia con la 'Z': in tal caso viene eliminato il nodo corrispondente.
 
+amplifica_stringa.c : Anche qui viene data una stringa e una maschera (in questo caso però mask è un vettore di interi). Funziona in modo simile ma la maschera può presentare anche numeri positivi diversi da 0 e 1: viene allocata una nuova stringa che presenta il numero di caratteri della stringa iniziale tante volte quanto è il numero corrispondente di mask.
+
 shrink_sottosequenze.c : Data una stringa (contenuta nel file di input) costituita da soli caratteri minuscoli (a-z) e da parentesi tonde (che si presuppongono non annidate e già accoppiate), la funzione shrink scrive su un file di output la stringa ottenuta da input sostituendo a tutte le sottosequenze individuate dalle parentesi con il carattere più frequente della sottosequenza stessa (che può essere uno qualsiasi in caso di parità).
 
 Centra.c : Aggiunge uno 0 al centro di una lista concatenata, creando un nuovo nodo centrale se è pari o sostituendo il valore centrale se è dispari.
