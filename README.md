@@ -18,3 +18,5 @@ CDR.c : Preso un numero intero positivo k (si ipotizza sia già dato quindi senz
 diff_max_lista.c : Data una lista di interi positivi crescenti, trova la differenza fra 2 elementi a e b della lista (differenza intesa come b-a in cui a<b) con la maggiore frequenza. Se 2 differenze hanno stessa frequenza allora la funzione ne ritorna una qualsiasi.
 
 lettera_min.c : Semplice programma che ritorna (con un algoritmo ricorsivo) la più piccola (alfabeticamente minore) lettera di una parola.
+
+minRC.c : Data una matrice di float, trova i primi n valori della matrice tali da essere minimi sia di riga che di colonna, stampando le loro coordinate. La matrice viene letta da file.
