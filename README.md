@@ -22,3 +22,5 @@ lettera_min.c : Semplice programma che ritorna (con un algoritmo ricorsivo) la p
 minRC.c : Data una matrice di float, trova i primi n valori della matrice tali da essere minimi sia di riga che di colonna, stampando le loro coordinate. La matrice viene letta da file.
 
 mergestr_func.c : funzione (non programma) che concatena ordinatamente due array di stringhe.
+
+gara.c : Dato un file composto da <cognome, nazione>, stampare a schermo il numero di partecipanti da ciascuna nazione.
