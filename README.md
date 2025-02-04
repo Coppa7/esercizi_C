@@ -25,4 +25,7 @@ mergestr_func.c : funzione (non programma) che concatena ordinatamente due array
 
 gara.c : Dato un file composto da <cognome, nazione>, stampare a schermo il numero di partecipanti da ciascuna nazione.
 
-mat_aristocrescente.c : Una matrice è definita aristocrescente se il massimo della riga i si trova in una colonna precedente rispetto al massimo della riga i+1, con i che va dalla prima alla penultima riga. Si possono supporre assenti elementi duplicati nella stessa riga.
+mat_aristocrescente.c : Una matrice è definita aristocrescente se il massimo della riga i si trova in una colonna precedente rispetto al massimo della riga 
+i+1, con i che va dalla prima alla penultima riga. Si possono supporre assenti elementi duplicati nella stessa riga.
+
+zip.c : Data una lista di caratteri, crea una stringa che contiene in ordine i caratteri della lista nella forma <c> oppure <cK> dove K rappresenta il numero di occorrenze consecutive del carattere nella lista.
