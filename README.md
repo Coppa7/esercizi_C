@@ -24,3 +24,5 @@ minRC.c : Data una matrice di float, trova i primi n valori della matrice tali d
 mergestr_func.c : funzione (non programma) che concatena ordinatamente due array di stringhe.
 
 gara.c : Dato un file composto da <cognome, nazione>, stampare a schermo il numero di partecipanti da ciascuna nazione.
+
+mat_aristocrescente.c : Una matrice è definita aristocrescente se il massimo della riga i si trova in una colonna precedente rispetto al massimo della riga i+1, con i che va dalla prima alla penultima riga. Si possono supporre assenti elementi duplicati nella stessa riga.
