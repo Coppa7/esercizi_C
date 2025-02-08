@@ -33,3 +33,5 @@ zip.c : Data una lista di caratteri, crea una stringa che contiene in ordine i c
 policode.c : Data una lista di codicipersona e policode, alloca e crea una nuova lista che contiene tutte le persone cui policode non sono compatibili con NESSUN altra persona. Due policode sono compatibili se sono uno l'inverso dell'altro (speculari) o se sono uno il complementare dell'altro (siccome i policode hanno una lunghezza massima di 9 caratteri e contengono solo i caratteri 'D' ed 'S', per essere complementari i due policode devono avere le 'S' e le 'D' invertite)
 
 percorso.c : Una matrice di 0-1 rappresenta una mappa dove lo 0 rappresenta un passaggio libero e 1 rappresenta un ostacolo. Data una lista che rappresenta un percorso da seguire, determinare quante mosse è possibile fare prima di incontrare un ostacolo o uscire dalla mappa, e stampare l'ultima posizione "lecita".
+
+h_index.c : Viene dato un file riguardante un ricercatore (Nome e cognome sulla prima riga) e alcuni suoi studi pubblicati (i codici) insieme alle loro citazioni (cit). La funzione h_index calcola l'indice di Hirsch del file.
