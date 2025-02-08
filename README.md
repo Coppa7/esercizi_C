@@ -31,3 +31,5 @@ i+1, con i che va dalla prima alla penultima riga. Si possono supporre assenti e
 zip.c : Data una lista di caratteri, crea una stringa che contiene in ordine i caratteri della lista nella forma <c> oppure <cK> dove K rappresenta il numero di occorrenze consecutive del carattere nella lista.
 
 policode.c : Data una lista di codicipersona e policode, alloca e crea una nuova lista che contiene tutte le persone cui policode non sono compatibili con NESSUN altra persona. Due policode sono compatibili se sono uno l'inverso dell'altro (speculari) o se sono uno il complementare dell'altro (siccome i policode hanno una lunghezza massima di 9 caratteri e contengono solo i caratteri 'D' ed 'S', per essere complementari i due policode devono avere le 'S' e le 'D' invertite)
+
+percorso.c : Una matrice di 0-1 rappresenta una mappa dove lo 0 rappresenta un passaggio libero e 1 rappresenta un ostacolo. Data una lista che rappresenta un percorso da seguire, determinare quante mosse è possibile fare prima di incontrare un ostacolo o uscire dalla mappa, e stampare l'ultima posizione "lecita".
